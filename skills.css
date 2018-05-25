@@ -103,6 +103,9 @@ body {
     /* margin-top:10px; */
   }
 }
+.modal-title, .modal-body{
+  color:black;
+}
 
 
 /*

@@ -12,6 +12,9 @@
     <!-- Bootstrap core CSS -->
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
     <!-- Custom styles for this template -->
     <link href="skills.css" rel="stylesheet">
   </head>
@@ -52,7 +55,7 @@
                 </ul>
                 <p class="spacer"></p>
               </div>
-              <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button">More Info</button>
+              <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#exampleModalCenter">More Info</button>
             </div>
             <div class="card mb-4 box-shadow">
               <div class="card-header">
@@ -69,7 +72,7 @@
                   <li>Selenium Automated Testing</li>
                 </ul>
                 <p class="spacer"></p>
-                <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button">More Info</button>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#exampleModalCenter">More Info</button>
               </div>
             </div>
             <div class="card mb-4 box-shadow">
@@ -87,7 +90,7 @@
                   <li>Assembly / Microprocessing</li>
                 </ul>
                 <p class="spacer"></p>
-                <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button">More Info</button>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#exampleModalCenter">More Info</button>
               </div>
             </div>
             <div class="card mb-4 box-shadow">
@@ -106,7 +109,7 @@
                   <li>Soldering / Circuits</li>
                 </ul>
                 <p class="spacer"></p>
-                <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button">More Info</button>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#exampleModalCenter">More Info</button>
               </div>
             </div>
           </div>
@@ -130,4 +133,34 @@
     <script src="./assets/js/vendor/popper.min.js"></script>
     <script src="./dist/js/bootstrap.min.js"></script>
   </body>
+
+
+
+
+
+
+
+
+  <!-- Modals for Info Dialogs -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Info will go here about how the important skills are impactful. LinkedIn and other links to relevant sites will go at the bottom.</p>
+        <br>
+        <p>Still working on the technical parts, will fill in this info later.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary"><i class="fab fa-linkedin"></i> LinkedIn</button>
+      </div>
+    </div>
+  </div>
+</div>
 </html>

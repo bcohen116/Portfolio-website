@@ -12,41 +12,73 @@
     <!-- Bootstrap core CSS -->
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
     <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
+    <link href="skills.css" rel="stylesheet">
   </head>
 
   <body class="text-center">
-
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-          <h3 class="masthead-brand">Cover</h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link" href="#">Home</a>
-            <a class="nav-link active" href="./Experience.html">Experience</a>
-            <a class="nav-link" href="./Projects.html">Projects</a>
-            <a class="nav-link" href="./Leadership.html">Leadership</a>
-            <a class="nav-link" href="./Skills.html">Skills</a>
-            <a class="nav-link" href="./Resume.html">Resume</a>
-            <a class="nav-link" href="./Contact.html">Contact</a>
-          </nav>
-        </div>
-      </header>
+    <div class="wrapper d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <div class="cover-container w-100 h-100 p-3 mx-auto flex-column"><!--d-flex-->
+        <header class="masthead mb-auto">
+          <div class="inner">
+            <h3 class="masthead-brand">Cover</h3>
+            <nav class="nav nav-masthead justify-content-center">
+              <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link active" href="./Experience.html">Experience</a>
+              <a class="nav-link" href="./Projects.html">Projects</a>
+              <a class="nav-link" href="./Leadership.html">Leadership</a>
+              <a class="nav-link" href="./Skills.html">Skills</a>
+              <a class="nav-link" href="./Resume.html">Resume</a>
+              <a class="nav-link" href="./Contact.html">Contact</a>
+            </nav>
+          </div>
+        </header>
+      </div>
 
       <main role="main" class="inner cover">
-        <div class="mainContent">
-          <img id="benImage" src="./assets/_DSC2215_cropped.png" alt="Ben Cohen" style="float:right;width:234.06px;height:400px;"></img>
-          <h1 class="cover-heading">Ben Cohen</h1>
-          <!-- <img id="benImage" src="./assets/_DSC2215_modified.png" alt="Ben Cohen" style="float:right;width:148.82px;height:400px;"></img> -->
-          <p class="lead">Computer Engineer, Innovator, Software Developer, Embedded System Designer</p>
-          <hr align="left" style="width: 60%; color: black; height: 1px; background-color:black;">
-          <p class="lead">"Innovation drives me. Seeing how a project I worked on is being applied to help people really motivates me to keep improving."</p>
-          <p class="lead">
-            <a href="./Contact.html" class="btn btn-success btn-lg">Contact</a>
-          </p>
-
-        </div>
+        <div class="container">
+          <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 box-shadow">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Chamberlain Group</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"><small class="text-muted">Computer Engineer Co-op</small></h1>
+                <h5 class="card-title pricing-card-title">Responsibilities</h5>
+                <ul class="list-group mt-3 mb-4">
+                  <li class="list-group-item">Prototype new technology</li>
+                  <li class="list-group-item">Collaborate with UX/ID department to design new products</li>
+                  <li class="list-group-item">Research new opportunities</li>
+                  <li class="list-group-item">Test products according to specification</li>
+                  <li class="list-group-item">Performs other duties as assigned.</li>
+                </ul>
+                <p class="spacer"></p>
+              </div>
+              <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#exampleModalCenter">More Info</button>
+            </div>
+            <div class="card mb-4 box-shadow">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">CIMx Software</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"><small class="text-muted">Junior Software Developer</small></h1><!--<small class="text-muted">/ mo</small>-->
+                <h5 class="card-title pricing-card-title">Responsibilities</h5>
+                <ul class="list-group mt-3 mb-4">
+                  <li class="list-group-item">Take on development "story" to create new features for the product. (Development using Java/JavaScript/SQL)</li>
+                  <li class="list-group-item">Test products and report quality issues on past/upcoming product features.</li>
+                  <li class="list-group-item">Run regression test suite on a daily basis and communicate results to the development team.</li>
+                  <li class="list-group-item">Update regressions test suite in order to reflect all features</li>
+                  <li class="list-group-item">Participate in daily development and weekly company stand-ups as well as planning meetings.</li>
+                  <li class="list-group-item">Provide support to the Development Team as well as other projects and assignments that the Company asks to undertake.</li>
+                </ul>
+                <p class="spacer"></p>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#exampleModalCenter">More Info</button>
+              </div>
+            </div>
+          </div>
 
       </main>
 
@@ -58,6 +90,7 @@
     </div>
 
 
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -66,4 +99,34 @@
     <script src="./assets/js/vendor/popper.min.js"></script>
     <script src="./dist/js/bootstrap.min.js"></script>
   </body>
+
+
+
+
+
+
+
+
+  <!-- Modals for Info Dialogs -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Info will go here about how I improved from this position, and how I grew professionally. LinkedIn and other links to relevant sites will go at the bottom.</p>
+        <br>
+        <p>Still working on the technical parts, will fill in this info later.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary"><i class="fab fa-linkedin"></i> LinkedIn</button>
+      </div>
+    </div>
+  </div>
+</div>
 </html>
