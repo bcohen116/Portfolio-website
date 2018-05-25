@@ -98,11 +98,6 @@ body {
     float: right;
   }
 }
-@media (max-width: 700px) {
-  .card-deck{
-    /* margin-top:10px; */
-  }
-}
 .modal-title, .modal-body{
   color:black;
 }
