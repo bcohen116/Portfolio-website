@@ -196,6 +196,13 @@ div.container a
   color: #212529;
 }
 
+.projectLink{
+  color: mediumturquoise !important;
+}
+.projectLink:hover{
+  color: #1E5653 !important;
+}
+
 /*
  * Footer
  */

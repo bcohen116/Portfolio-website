@@ -21,7 +21,7 @@
 
   <body class="text-center">
     <div class="container color pullRight nav nav-masthead justify-content-center">
-      <a class="nav-link" href="./index.html" class="icon icon-home">Home</a>
+      <a class="nav-link" href="./index.html">Home</a>
       <a class="nav-link" href="./Experience.html">Experience</a>
       <a class="nav-link active" href="./Involvement.html">Involvement</a>
       <a class="nav-link" href="./Skills.html">Skills</a>
@@ -42,16 +42,16 @@
               </div>
               <div class="card-body">
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li class="list-group-item">Arduino Fish Feeder</li>
-                  <li class="list-group-item">Privacy Pi Device</li>
-                  <li class="list-group-item">Galaxy Editor Tutorial Series</li>
-                  <li class="list-group-item">Aviator Flight Plan</li>
+                  <li class="list-group-item"><a class="projectLink" href="http://www.instructables.com/id/Arduino-Fish-Feeder-1/" target="_blank">Arduino Fish Feeder</a></li>
+                  <li class="list-group-item"><a class="projectLink" href="https://devpost.com/software/proxy-pi" target="_blank">Privacy Pi Device - Hackathon Winner</a></li>
+                  <li class="list-group-item"><a class="projectLink" href="https://www.youtube.com/playlist?list=PLcgOj_nuvbul9opvixWJ2MdohIAnNiJsu" target="_blank">Galaxy Editor Tutorial Series</a></li>
+                  <li class="list-group-item"><a class="projectLink" href="https://github.com/bcohen116/AviatorFlightPlan" target="_blank">Aviator Flight Plan</a></li>
                   <li class="list-group-item">UC Robotics Outreach Research</li>
                   <li class="list-group-item">View more on my LinkedIn</li>
                 </ul>
                 <p class="spacer"></p>
               </div>
-              <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#exampleModalCenter">More Info</button>
+              <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#projects_modal">More Info</button>
             </div>
             <div class="card mb-4 box-shadow">
               <div class="card-header">
@@ -65,7 +65,7 @@
                   <li class="list-group-item">Section Leader - Sycamore Drumline</li>
                 </ul>
                 <p class="spacer"></p>
-                <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#exampleModalCenter">More Info</button>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#leadership_modal">More Info</button>
               </div>
             </div>
             <div class="card mb-4 box-shadow">
@@ -81,7 +81,7 @@
                   <li class="list-group-item">Senior Community Project</li>
                 </ul>
                 <p class="spacer"></p>
-                <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#exampleModalCenter">More Info</button>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary card-button" data-toggle="modal" data-target="#volunteer_modal">More Info</button>
               </div>
             </div>
           </div>
@@ -114,7 +114,33 @@
 
 
   <!-- Modals for Info Dialogs -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="projects_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Project</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Personal projects have been my favorite part of learning new material. I use personal projects to learn about something I’m interested in that I cannot get in the classroom. These projects define me as being someone who takes initiative, is interested and willing to learn, and someone who really enjoys what is being done. </p>
+        <br>
+        <p>You can see my GitHub and LinkedIn with the links below, which contain all my public projects. You can also exit this dialog and click the name of the project for a direct link to the project if it is available.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button onClick="javascript:window.open('https://www.linkedin.com/in/CohenBen1', '_blank');" target="_blank" type="button" class="btn btn-primary" style="-webkit-appearance: button;""><i class="fab fa-linkedin"></i> LinkedIn</button>
+        <button onClick="javascript:window.open('https://github.com/bcohen116', '_blank');" target="_blank" type="button" class="btn btn-danger"><i class="fab fa-github"></i> GitHub</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="modal fade" id="leadership_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -124,9 +150,33 @@
         </button>
       </div>
       <div class="modal-body">
-        <p>Info will go here about how these experiences define me, and how they helped me grow. LinkedIn and other links to relevant sites will go at the bottom.</p>
+        <p>Leadership roles have helped me grow professionally. I have learned how to manage people better, and most importantly, I’ve learned how to work together effectively with others. My favorite project definitely has to be my Eagle Project. There, I was able to solve a problem, design a solution, organize a team, and complete a project from start to finish. It was awesome to be able to see a whole process through including designing parts and managing a team to complete the work.</p>
         <br>
-        <p>Still working on the technical parts, will fill in this info later.</p>
+        <p>The only public picture I have is linked below. Contact me and I can provide YouTube links to the marching band shows.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button onClick="javascript:window.open('http://www.blueashcivicleague.com/photo.asp?photo_id=24&album_id=1&album_name=BACL%20Presentations&action=prev', '_blank');" target="_blank" type="button" class="btn btn-danger">Eagle Scout Pictures</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="volunteer_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Volunteering allows me to give back to the community in a meaningful way. Personally, I find value in work that is useful to others. That includes both my technical work, and in other times. Volunteering allows me to pursue these ideals. While I do not always have the time to go out and help, I do try to take part when I can. I strongly believe that helping others is the key to a better world. If you help others, then they are able to then make a difference themselves, and the world as a whole gets better.</p>
+        <br>
+        <p></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
